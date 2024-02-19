@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vALU
+!s110 1705517993
+!i10b 1
+!s100 X80M@HWOBoLmbA6jzbRn71
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ik`gHDRFZeM9M3gn1JOO3h3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project
+w1705517989
+8C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ALU.v
+FC:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ALU.v
+!i122 2
+L0 1 28
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1705517993.000000
+!s107 C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ALU.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@a@l@u
+vControlUnit
+!s110 1705581521
+!i10b 1
+!s100 V=R3=?VR:`afHbWemf49d3
+R0
+IHYLPHXG=OPhJBYjFY`7V@3
+R1
+R2
+w1705518128
+8C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ControlUnit.v
+FC:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ControlUnit.v
+!i122 4
+L0 1 47
+R3
+r1
+!s85 0
+31
+!s108 1705581521.000000
+!s107 C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ControlUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ControlUnit.v|
+!i113 1
+R4
+R5
+n@control@unit

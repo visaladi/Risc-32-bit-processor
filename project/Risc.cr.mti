@@ -1,0 +1,39 @@
+{C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ALU.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/MemoryInterface.v} {0 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/MemoryInterface.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MemoryInterface
+** Error: C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/MemoryInterface.v(14): (vlog-2110) Illegal reference to memory "memory".
+** Error: C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/MemoryInterface.v(14): Illegal LHS of assignment.
+** Error (suppressible): C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/MemoryInterface.v(14): (vlog-2997) Cannot assign a packed type 'reg[32767:0]' to an unpacked type 'reg[31:0] $[0:1023]'.
+
+} {4.0 6.0} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/DataPath.v} {0 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/DataPath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+** Error: C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/DataPath.v(5): 'Port' must not be declared to be an array: instruction_memory.
+
+} {4.0 5.0} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/InstructionFetchUnit.v} {0 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/InstructionFetchUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionFetchUnit
+** Error: C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/InstructionFetchUnit.v(3): 'Port' must not be declared to be an array: instruction_memory.
+
+} {4.0 5.0} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ControlUnit.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/ControlUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/RegisterFile.v} {0 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/RegisterFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+** Error: C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/RegisterFile.v(17): (vlog-2110) Illegal reference to memory "registers".
+** Error: C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/RegisterFile.v(17): Illegal LHS of assignment.
+** Error (suppressible): C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/project/RegisterFile.v(17): (vlog-2997) Cannot assign a packed type 'reg[1023:0]' to an unpacked type 'reg[31:0] $[31:0]'.
+
+} {4.0 6.0} {}}

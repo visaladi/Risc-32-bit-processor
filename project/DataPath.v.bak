@@ -1,0 +1,83 @@
+module DataPath(
+  input wire clk,
+  input wire rst,
+  input [31:0] pc,
+  input [31:0] instruction_memory [0:2^16-1],
+  output reg [31:0] result,
+  output reg zero,
+  output reg overflow, 
+  output reg carry,
+  output reg [31:0] read_data1,
+  output reg [31:0] read_data2
+);
+
+  wire [5:0] opcode;
+  wire [4:0] read_reg1, read_reg2, write_reg;
+  wire [31:0] write_data;
+  wire [2:0] alu_opcode;
+  wire reg_write_enable;
+
+  // Extract opcode and operands from the instruction
+  assign opcode = instruction_memory[pc][31:26];
+  assign read_reg1 = instruction_memory[pc][25:21];
+  assign read_reg2 = instruction_memory[pc][20:16];
+  assign write_reg = instruction_memory[pc][15:11];
+  assign write_data = instruction_memory[pc][15:0];
+
+  // Instantiate components
+  RegisterFile regFile (
+    .read_reg1(read_reg1),
+    .read_reg2(read_reg2),
+    .write_reg(write_reg),
+    .write_data(write_data),
+    .write_enable(reg_write_enable),
+    .read_data1(read_data1),
+    .read_data2(read_data2)
+  );
+
+  ControlUnit ctrlUnit (
+    .opcode(opcode),
+    .alu_opcode(alu_opcode),
+    .reg_write_enable(reg_write_enable)
+  );
+
+  ALU alu (
+    .operand1(read_data1),
+    .operand2(read_data2),
+    .opcode(alu_opcode),
+    .result(result),
+    .zero(zero),
+    .overflow(overflow),
+    .carry(carry)
+  );
+
+  MemoryInterface memInterface (
+    .address(pc),  // Assuming pc is the memory address
+    .write_data(write_data),
+    .write_enable(reg_write_enable),
+    .read_data(read_data1)  // You may need to adjust this based on your design
+  );
+
+  InstructionFetchUnit instFetchUnit (
+    .pc(pc),
+    .instruction_memory(instruction_memory),
+    .instruction(write_data)  // You may need to adjust this based on your design
+  );
+
+  // Data path connections
+  always @(*)
+    if (ctrlUnit.reg_write_enable)
+      regFile.write_reg <= write_reg;
+
+  always @(*)
+    if (ctrlUnit.alu_opcode == 3'b110 || ctrlUnit.alu_opcode == 3'b111)
+      // For shift operations, set write_data to shift amount
+      regFile.write_data <= write_data;
+
+  always @(*)
+    if (ctrlUnit.alu_opcode == 3'b110 || ctrlUnit.alu_opcode == 3'b111)
+      // For shift operations, set ALU operand2 to shift amount
+      alu.operand2 <= write_data;
+
+endmodule
+
