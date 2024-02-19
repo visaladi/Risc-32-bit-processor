@@ -1,0 +1,176 @@
+{C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/PC.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/PC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Register-Files.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Register-Files.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-mul.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-mul.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module calc
+
+Top level modules:
+	calc
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Control-Unit.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Control-Unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-add.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-add.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add
+
+Top level modules:
+	add
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Data-Memory.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Data-Memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Instruction-Memory.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Instruction-Memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/ALU.v} {1 {vlog -work work -stats=none {C:\Users\visal Adikari\OneDrive\Desktop\Uni Sem 5\HDL\final\Testbench\ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/Reg-File.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/Reg-File.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_test
+
+Top level modules:
+	reg_test
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/PC.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/PC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testpc
+
+Top level modules:
+	testpc
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Sign-Extend-26.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Sign-Extend-26.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Shift-Unit.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Shift-Unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_unit
+
+Top level modules:
+	shift_unit
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Split.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Split.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module split
+
+Top level modules:
+	split
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/Data-Mem.v} {1 {vlog -work work -stats=none {C:\Users\visal Adikari\OneDrive\Desktop\Uni Sem 5\HDL\final\Testbench\Data-Mem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dm_test
+
+Top level modules:
+	dm_test
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/Control-Unit.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/Control-Unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testcu
+
+Top level modules:
+	testcu
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-shift.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-shift.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift
+
+Top level modules:
+	shift
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-compare.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-compare.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module compare
+
+Top level modules:
+	compare
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/Processor.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/Processor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_mip
+
+Top level modules:
+	test_mip
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/ALU-Control.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/ALU-Control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testALU_co
+
+Top level modules:
+	testALU_co
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-Control.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-Control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_control
+
+Top level modules:
+	alu_control
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Processor.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Processor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/Inst-Mem.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/Inst-Mem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testIM
+
+Top level modules:
+	testIM
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Sign-Extend-16.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Sign-Extend-16.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sign_ext
+
+Top level modules:
+	sign_ext
+
+} {} {}} {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-Logical.v} {1 {vlog -work work -stats=none {C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-Logical.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module logical
+
+Top level modules:
+	logical
+
+} {} {}}

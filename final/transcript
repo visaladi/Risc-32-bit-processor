@@ -1,0 +1,137 @@
+# Compile of ALU.v was successful.
+# Compile of ALU-add.v was successful.
+# Compile of ALU-compare.v was successful.
+# Compile of ALU-Control.v was successful.
+# Compile of ALU-Logical.v was successful.
+# Compile of ALU-mul.v was successful.
+# Compile of ALU-shift.v was successful.
+# Compile of Control-Unit.v was successful.
+# Compile of Data-Memory.v was successful.
+# Compile of Instruction-Memory.v was successful.
+# Compile of PC.v was successful.
+# Compile of Processor.v was successful.
+# Compile of Register-Files.v was successful.
+# Compile of Shift-Unit.v was successful.
+# Compile of Sign-Extend-16.v was successful.
+# Compile of Sign-Extend-26.v was successful.
+# Compile of Split.v was successful.
+# Compile of ALU.v failed with 3 errors.
+# Compile of ALU-Control.v was successful.
+# Compile of Control-Unit.v was successful.
+# Compile of Data-Mem.v failed with 3 errors.
+# Compile of Inst-Mem.v was successful.
+# Compile of PC.v was successful.
+# Compile of Processor.v was successful.
+# Compile of Reg-File.v was successful.
+# 25 compiles, 2 failed with 6 errors.
+# Compile of ALU.v was successful.
+# Compile of ALU-add.v was successful.
+# Compile of ALU-compare.v was successful.
+# Compile of ALU-Control.v was successful.
+# Compile of ALU-Logical.v was successful.
+# Compile of ALU-mul.v was successful.
+# Compile of ALU-shift.v was successful.
+# Compile of Control-Unit.v was successful.
+# Compile of Data-Memory.v was successful.
+# Compile of Instruction-Memory.v was successful.
+# Compile of PC.v was successful.
+# Compile of Processor.v was successful.
+# Compile of Register-Files.v was successful.
+# Compile of Shift-Unit.v was successful.
+# Compile of Sign-Extend-16.v was successful.
+# Compile of Sign-Extend-26.v was successful.
+# Compile of Split.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU-Control.v was successful.
+# Compile of Control-Unit.v was successful.
+# Compile of Data-Mem.v failed with 3 errors.
+# Compile of Inst-Mem.v was successful.
+# Compile of PC.v was successful.
+# Compile of Processor.v was successful.
+# Compile of Reg-File.v was successful.
+# 25 compiles, 1 failed with 3 errors.
+# Compile of ALU.v was successful.
+# Compile of ALU-add.v was successful.
+# Compile of ALU-compare.v was successful.
+# Compile of ALU-Control.v was successful.
+# Compile of ALU-Logical.v was successful.
+# Compile of ALU-mul.v was successful.
+# Compile of ALU-shift.v was successful.
+# Compile of Control-Unit.v was successful.
+# Compile of Data-Memory.v was successful.
+# Compile of Instruction-Memory.v was successful.
+# Compile of PC.v was successful.
+# Compile of Processor.v was successful.
+# Compile of Register-Files.v was successful.
+# Compile of Shift-Unit.v was successful.
+# Compile of Sign-Extend-16.v was successful.
+# Compile of Sign-Extend-26.v was successful.
+# Compile of Split.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU-Control.v was successful.
+# Compile of Control-Unit.v was successful.
+# Compile of Data-Mem.v was successful.
+# Compile of Inst-Mem.v was successful.
+# Compile of PC.v was successful.
+# Compile of Processor.v was successful.
+# Compile of Reg-File.v was successful.
+# 25 compiles, 0 failed with no errors.
+vsim work.dm_test
+# vsim work.dm_test 
+# Start time: 23:12:58 on Jan 18,2024
+# Loading work.dm_test
+# Loading work.dm
+add wave -position insertpoint sim:/dm_test/*
+run -all
+vsim work.testalu
+# End time: 23:16:35 on Jan 18,2024, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 4
+# vsim work.testalu 
+# Start time: 23:16:35 on Jan 18,2024
+# Loading work.testalu
+# Loading work.alu
+# Loading work.logical
+# Loading work.shift
+# Loading work.compare
+# Loading work.add
+# Loading work.calc
+add wave -position insertpoint sim:/testalu/*
+run -all
+vsim work.testalu
+# End time: 08:45:41 on Jan 19,2024, Elapsed time: 9:29:06
+# Errors: 0, Warnings: 1
+# vsim work.testalu 
+# Start time: 08:45:41 on Jan 19,2024
+# Loading work.testalu
+# Loading work.alu
+# Loading work.logical
+# Loading work.shift
+# Loading work.compare
+# Loading work.add
+# Loading work.calc
+run -all
+add wave -position insertpoint sim:/testalu/*
+run -all
+vsim work.testALU_co
+# End time: 08:52:54 on Jan 19,2024, Elapsed time: 0:07:13
+# Errors: 0, Warnings: 1
+# vsim work.testALU_co 
+# Start time: 08:52:54 on Jan 19,2024
+# Loading work.testALU_co
+# Loading work.alu_control
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (6) for port 'funct'. The port definition is at: C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/ALU-Control.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testALU_co/uut File: C:/Users/visal Adikari/OneDrive/Desktop/Uni Sem 5/HDL/final/Testbench/ALU-Control.v Line: 8
+run -all
+add wave -position insertpoint sim:/testALU_co/*
+run -all
+vsim work.testIM
+# End time: 09:09:56 on Jan 19,2024, Elapsed time: 0:17:02
+# Errors: 0, Warnings: 2
+# vsim work.testIM 
+# Start time: 09:09:56 on Jan 19,2024
+# Loading work.testIM
+# Loading work.im
+add wave -position insertpoint sim:/testIM/*
+run -all
+# End time: 10:20:50 on Jan 19,2024, Elapsed time: 1:10:54
+# Errors: 0, Warnings: 1
